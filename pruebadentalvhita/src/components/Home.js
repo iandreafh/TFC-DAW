@@ -1,4 +1,6 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
  
 import Menu from './Menu'; // Componente Menú (Lo he creado en la Parte 1 de este Tutorial) 
 import Slider from './Slider';
@@ -14,6 +16,16 @@ class Home extends React.Component {
  
  <>
  
+ <Jumbotron fluid>
+   <Container>
+      <h1>Dental Vhita</h1>
+      <p>
+      This is a modified jumbotron that occupies the entire horizontal space of
+      its parent.
+      </p>
+   </Container>
+</Jumbotron>
+
  <Menu /> 
  
  <main role="main" className="flex-shrink-0 mt-5">
