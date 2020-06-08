@@ -67,3 +67,9 @@
 .formInicio {
   margin: 6vh 12vw;
 }
+.fcol {
+  height: 1.6em;
+  line-height: 1.6em;
+  margin-bottom: 1em;
+  text-align: center;
+}

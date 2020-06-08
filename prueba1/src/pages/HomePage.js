@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Inicio from '../components/Inicio';
 import Menu from '../components/Menu';
+import Footer from '../components/Footer';
 import FormInicio from '../components/Home/FormInicio';
 
 function HomePage() {
@@ -13,6 +14,7 @@ function HomePage() {
       <Container>
           <Row><Col><FormInicio /></Col></Row>
       </Container>
+      <Footer />
     </div>
   );
 }
