@@ -1,13 +1,13 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
-import fondoLogo from '../img/f3.png';
+import fondoLogo from '../img/f2.png';
 import logo from '../img/pack/logo1.png';
 
 
 const Inicio = (props) => {
   return (
     <div>
-      <Jumbotron fluid style={{backgroundColor: '#F5FDFF', color: '#00BFFF', margin: '4em 0em 0em'}}>
+      <Jumbotron fluid style={{backgroundColor: '#F5FDFF', color: '#00BFFF', margin: '1em 0em 0em 0em'}}>
         <Container fluid>
           <Row>
             <Col xs="3">

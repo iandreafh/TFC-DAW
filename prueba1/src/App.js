@@ -1,16 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Inicio from './components/Inicio'
-import Menu from './components/Menu'
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     
     <div className="App">
       
-      <Menu />
-      <Inicio />
+      <HomePage />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
