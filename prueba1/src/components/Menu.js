@@ -23,7 +23,7 @@ const Menu = (props) => {
   return (
     <div>
         
-      <Navbar light expand="md" className="fixed-top" style={{backgroundColor: '#F5FDFF'}}>
+      <Navbar light expand="md" style={{backgroundColor: '#F5FDFF', boxShadow: '0px -2px 10px #888888'}}>
         <NavbarBrand href="/">Dental Vhita</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

@@ -45,25 +45,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand');
 
-.fondoLogo {
-  height: 40vh;
-  position: relative;
-  left: 7.35vw;
-  opacity: 0.9;
-  animation: App-logo-spin infinite 30s linear;
-}
-.logo {
-  height: 16vh;
-  position: absolute;
-  top: 12vh;
-  left: 16vw;
-}
-.letras {
-  padding-top: 5em;
-}
-.titulo {
-  font-family: 'Handlee', cursive;
-}
 .formInicio {
   margin: 6vh 12vw;
 }

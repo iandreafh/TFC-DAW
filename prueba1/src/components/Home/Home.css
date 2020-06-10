@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand');
+.fut {
+    width: 100%;
+}
+.jumbotron {
+    height: 15.5vw;
+    color: rgb(28, 181, 231);
+}
+.fondoLogo {
+    width: 12vw;
+    position: relative;
+    opacity: 1;
+    filter: brightness(92%);
+    animation: App-logo-spin infinite 40s linear;
+  }
+  .logo {
+    width: 5vw;
+    position: absolute;
+    top: 3.5vw;
+    left: 5.5vw;
+  }
+  .letras {
+    text-align: left;
+  }
+  .titulo {
+    font-family: 'Handlee', cursive;
+    font-size: 6vw;
+    padding-top: 0.2em;
+  }
+  .letras p {
+      font-size: 1.5vw;
+      padding-left: 0.8vw;
+  }
+  .carousel {
+      padding: 0;
+      margin: 0;
+      height: 54.5vh;
+      width: 100vw;
+  }
+  #cuadro {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  .carousel h3 {
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 3.2vw;
+    padding-bottom: 7vw;
+  }
+  .carousel-item > img { 
+    height: 57vh;
+    width: 100%; 
+    object-fit: cover;
+    object-position: bottom;
+    opacity: 0.9;
+  }
+  .botoncito {
+    background-color: white;
+    border-radius: 10px;
+    width: 13vw;
+    position: absolute;
+    left: 43%;
+    top: 94%;
+    padding: 0.32vw;
+    padding-bottom: 1vw;
+    cursor: pointer;
+    z-index: 5;
+}
+.botoncito a {
+    color: rgb(28, 181, 231);
+    font-size: 1.4vw; 
+    z-index: 5;
+}
+
+
+
+/* #################################################### */
+/* #################################################### */
+/* #################################################### */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .carousel {
+        width: 98.79vw;
+    }
+
+}
+
+/* Super large devices (huge laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
+
+    .carousel {
+        width: 100vw;
+    }
+
+}
