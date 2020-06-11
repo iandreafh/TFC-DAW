@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand');
 .fut {
     width: 100%;
+    height: 7.5vh;
+    padding: 0.1em 0;
 }
 .jumbotron {
     height: 15.5vw;
@@ -34,7 +36,7 @@
   .carousel {
       padding: 0;
       margin: 0;
-      height: 54.5vh;
+      height: 68vh;
       width: 100vw;
   }
   #cuadro {
@@ -50,27 +52,66 @@
   .carousel-item > img { 
     height: 57vh;
     width: 100%; 
-    object-fit: cover;
-    object-position: bottom;
+    object-fit: contain;
     opacity: 0.9;
   }
+  html  {
+    scroll-behavior: smooth;
+  }
   .botoncito {
-    background-color: white;
-    border-radius: 10px;
-    width: 13vw;
-    position: absolute;
-    left: 43%;
-    top: 94%;
-    padding: 0.32vw;
-    padding-bottom: 1vw;
-    cursor: pointer;
-    z-index: 5;
+    position:absolute;
+    z-index:6;
+    background-color:#FFFFFF;
+    top:95vh;
+    left:46vw;
 }
-.botoncito a {
-    color: rgb(28, 181, 231);
-    font-size: 1.4vw; 
-    z-index: 5;
+
+
+
+
+
+#vidbg {
+  position: relative;
+  background-color: black;
+  height: 99vh;
+  width: 100%;
+  overflow: hidden;
 }
+
+#vidbg video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#vidbg .container {
+  position: relative;
+  z-index: 2;
+}
+
+#vidbg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+
+
+
 
 
 
@@ -82,6 +123,68 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  
+    #vidbg h1 {
+      font-size: 14vw;
+    }
+    #vidbg p {
+      font-size: 5vw;
+    }
+
+    .jumbotron {
+        height: 30vw;
+    }
+    .fondoLogo {
+        width: 22vw;
+        margin-top: 2vw;
+        position: absolute;
+        left: 0.4em;
+        opacity: 1;
+        filter: brightness(92%);
+        animation: App-logo-spin infinite 40s linear;
+      }
+      /* Estoy actualizando medias al movil, borrar lo que sobra */
+      .logo {
+        width: 8vw;
+        position: absolute;
+        top: 3.5vw;
+        left: 7.5vw;
+      }
+      .letras {
+        text-align: left;
+      }
+      .titulo {
+        font-family: 'Handlee', cursive;
+        font-size: 6vw;
+        padding-top: 0.2em;
+      }
+      .letras p {
+          font-size: 1.5vw;
+          padding-left: 0.8vw;
+      }
+      .carousel {
+          padding: 0;
+          margin: 0;
+          height: 54.5vh;
+          width: 100vw;
+      }
+      #cuadro {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+      }
+      .carousel h3 {
+        text-shadow: 2px 2px 2px #000000;
+        font-size: 3.2vw;
+        padding-bottom: 7vw;
+      }
+      .carousel-item > img { 
+        height: 57vh;
+        width: 100%; 
+        object-fit: contain;
+        opacity: 0.9;
+      }
 
 
 
@@ -118,7 +221,7 @@
 }
 
 /* Super large devices (huge laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1367px) {
 
     .carousel {
         width: 100vw;

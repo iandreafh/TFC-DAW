@@ -8,18 +8,18 @@ const Footer = (props) => {
   return (
     <div>
         <Row className="fut">
-            <Col xs="12" md="2" className="fcol">
-                <a href="#!"><FontAwesome name='facebook' size='2x' style={{backgroundColor: '#00BFFF', color: 'white', width: '1.5em', height: '1.5em', borderRadius: '100%', lineHeight: '1.6em'}} /></a>
-                <a href="#!"><FontAwesome name='twitter' size='2x' style={{backgroundColor: '#00BFFF', color: 'white', width: '1.5em', height: '1.5em', borderRadius: '100%', lineHeight: '1.6em'}}/></a>
+            <Col xs="12" md="2" className="fcol" style={{margin: '0.45em 0'}}>
+                <a href="#!" style={{paddingRight: '0.7em'}}><FontAwesome name='facebook' style={{fontSize: '25px', backgroundColor: '#000', color: 'white', width: '1.1em', height: '1.1em', borderRadius: '25%', lineHeight: '1.1em'}} /></a>
+                <a href="#!" style={{paddingRight: '3em'}}><FontAwesome name='twitter' style={{fontSize: '25px', backgroundColor: '#000', color: 'white', width: '1.1em', height: '1.1em', borderRadius: '25%', lineHeight: '1.1em'}}/></a>
             </Col>
-            <Col xs="12" md="5" className="fcol">
-                <nav class="nav footer-bottom-nav mb-2 ml-5">
+            <Col xs="12" md="5" className="fcol" style={{marginTop: '0.5em'}}>
+                <nav className="nav footer-bottom-nav mb-2 ml-5">
                     <a href="#!">Política de Privacidad</a>
                     <pre>  -  </pre>
                     <a href="#!">Términos y Condiciones</a>
                 </nav>
             </Col>
-            <Col xs="12" md="5" className="fcol">
+            <Col xs="12" md="5" className="fcol" style={{marginTop: '0.5em'}}>
                 <p className="mb-2 ml-4">© Andrea Fernández 2020. Todos los derechos reservados.</p>
             </Col>
         </Row>

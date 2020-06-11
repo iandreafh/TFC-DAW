@@ -1,8 +1,7 @@
 import React from 'react';
-import { Jumbotron, Container, Row, Col } from 'reactstrap';
+import { Jumbotron, Container, Row, Col, Button } from 'reactstrap';
 import fondoLogo from '../../img/f2.png';
 import logo from '../../img/pack/logo1.png';
-import CarouselPage from './Carousel'
 
 
 
@@ -23,11 +22,6 @@ const Inicio = (props) => {
           </Row>
         </Container>
       </Jumbotron>
-
-      <Container fluid style={{padding: '0px'}}>
-        <CarouselPage />
-        <div class="botoncito text-center d-none d-md-block"><a href="#explorar">EXPLORA</a></div>
-      </Container>
 
     </div>
   );
