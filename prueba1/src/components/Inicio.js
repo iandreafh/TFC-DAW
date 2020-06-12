@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col, Button } from 'reactstrap';
-import fondoLogo from '../../img/f2.png';
-import logo from '../../img/pack/logo1.png';
+import fondoLogo from '../img/f2.png';
+import logo from '../img/pack/logo1.png';
 
 
 
@@ -17,7 +17,7 @@ const Inicio = (props) => {
             </Col>
             <Col xs="10" className="letras">
               <h1 className="titulo">Clínica Dental Vhita</h1>
-              <p className="lead">¡Bienvenido a nuestra web, explora todos nuestros servicios!</p>
+              <p className="lead">Acceso al panel interno de administración de la clínica</p>
             </Col>
           </Row>
         </Container>

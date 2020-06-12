@@ -1,23 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './Login.css';
 import { Container, Row, Col } from 'reactstrap';
-import Navbar from '../components/Navbar';
+import Inicio from '../components/Inicio';
 import Footer from '../components/Footer';
-import Counter from '../components/Home/Counter';
-import './Home.css';
-import Button from '../components/Home/button';
-import CarouselPage from '../components/Home/Carousel';
-import Video from '../components/Home/Video';
+import FormInicio from '../components/FormInicio';
 
 function HomePage() {
   return (
     
     <div className="HomePage">
-      <Navbar />
-      <Video />
-      <Button />
-      <Counter />
-      <CarouselPage />
+      <Inicio />
+      <FormInicio />
       <Footer />
 
       {/* <Container>

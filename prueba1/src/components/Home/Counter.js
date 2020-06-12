@@ -8,7 +8,7 @@ const Counter = () => {
   return(
     <div>
       <Container fluid id="counter">
-        <Row style={{padding: '2em 2em 1em'}}>
+        <Row style={{padding: '6vh 2em 2vh', textAlign: 'center'}}>
           <Col xs="4">
           <span className="simbolo">+</span>
 

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand');
+
+.fut {
+    width: auto;
+    height: auto;
+    z-index: 2;
+}
+.jumbotron {
+    height: 14em;
+    color: rgb(28, 181, 231);
+    text-align: center;
+    box-shadow: 0px -4px 10px #888888;
+    text-shadow: 2px 2px 10px rgb(207, 207, 207);
+}
+.fondoLogo {
+    width: 12vw;
+    position: relative;
+    margin-left: 12.5vw;
+    opacity: 1;
+    filter: brightness(92%);
+    animation: App-logo-spin infinite 40s linear;
+  }
+  .logo {
+    width: 5vw;
+    position: absolute;
+    top: 3.5vw;
+    left: 17vw;
+  }
+  .letras {
+    text-align: center;
+  }
+  .titulo {
+    font-family: 'Handlee', cursive;
+    font-size: 6vw;
+    padding-top: 0.2em;
+  }
+  .letras p {
+      font-size: 1.5vw;
+      padding-left: 0.8vw;
+  }
+  html  {
+    scroll-behavior: smooth;
+  }
+  #tituloForm {
+      padding-left: 1vw;
+  }
+  .formulario {
+      height: 54vh;
+      padding: 3em;
+      justify-content: center;
+  }
+  form {
+    padding: 3em 0 1em;
+  }
+
+
+
+
+
+
+
+
+/* #################################################### */
+/* #################################################### */
+/* #################################################### */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .fut {
+        width: auto;
+        height: auto;
+        z-index: 2;
+    }
+    .jumbotron {
+        height: 30vw;
+    }
+    .fondoLogo {
+        width: 22vw;
+        margin-top: 2vw;
+        position: absolute;
+        left: 0.4em;
+        opacity: 1;
+        filter: brightness(92%);
+        animation: App-logo-spin infinite 40s linear;
+      }
+      /* Estoy actualizando medias al movil, borrar lo que sobra */
+      .logo {
+        width: 8vw;
+        position: absolute;
+        top: 3.5vw;
+        left: 7.5vw;
+      }
+      .letras {
+        text-align: left;
+      }
+      .titulo {
+        font-family: 'Handlee', cursive;
+        font-size: 6vw;
+        padding-top: 0.2em;
+      }
+      .letras p {
+          font-size: 1.5vw;
+          padding-left: 0.8vw;
+      }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .fut {
+        width: auto;
+        height: auto;
+        z-index: 2;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+/* Super large devices (huge laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1367px) {
+
+
+}

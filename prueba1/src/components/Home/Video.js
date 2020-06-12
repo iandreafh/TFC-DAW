@@ -22,8 +22,7 @@ export default class Video extends React.Component {
     <div className="d-flex h-100 text-center align-items-center">
       <div className="w-100 text-white">
         <h1 className="display-3">Dental Vhita</h1>
-        <p className="lead mb-0">Una buena sonrisa tiene el poder de</p><p className="lead mb-0">cambiar el mundo que te rodea</p><br/>
-        <p className="lead mb-0">Lo mejor que puedes ponerte es una sonrisa,</p><p className="lead mb-0">déjanos ayudarte a lucirla bien</p>
+        <p className="lead mb-0">Una buena sonrisa tiene el poder de cambiar el mundo que te rodea</p>
       </div>
     </div>
   </div>

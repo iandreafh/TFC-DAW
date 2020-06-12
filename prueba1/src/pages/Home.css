@@ -1,38 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand');
+.navbar {
+  height: 13vh;
+}
+#fonditoNav {
+  overflow: hidden;
+}
 .fut {
-    width: 100%;
-    height: 7.5vh;
-    padding: 0.1em 0;
+  width: auto;
+  height: auto;
+  z-index: 2;
 }
-.jumbotron {
-    height: 15.5vw;
-    color: rgb(28, 181, 231);
-}
-.fondoLogo {
-    width: 12vw;
-    position: relative;
-    opacity: 1;
-    filter: brightness(92%);
-    animation: App-logo-spin infinite 40s linear;
-  }
-  .logo {
-    width: 5vw;
-    position: absolute;
-    top: 3.5vw;
-    left: 5.5vw;
-  }
-  .letras {
-    text-align: left;
-  }
-  .titulo {
-    font-family: 'Handlee', cursive;
-    font-size: 6vw;
-    padding-top: 0.2em;
-  }
-  .letras p {
-      font-size: 1.5vw;
-      padding-left: 0.8vw;
-  }
   .carousel {
       padding: 0;
       margin: 0;
@@ -60,20 +37,22 @@
   }
   .botoncito {
     position:absolute;
-    z-index:6;
+    z-index:100;
     background-color:#FFFFFF;
+    width: 12vw;
     top:95vh;
-    left:46vw;
+    left: calc(50% - 6vw);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
 
 
 
 #vidbg {
   position: relative;
   background-color: black;
-  height: 99vh;
+  height: 86.1vh;
   width: 100%;
   overflow: hidden;
 }
@@ -105,7 +84,7 @@
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.4;
+  opacity: 0.3;
   z-index: 1;
 }
 
@@ -132,37 +111,6 @@
       font-size: 5vw;
     }
 
-    .jumbotron {
-        height: 30vw;
-    }
-    .fondoLogo {
-        width: 22vw;
-        margin-top: 2vw;
-        position: absolute;
-        left: 0.4em;
-        opacity: 1;
-        filter: brightness(92%);
-        animation: App-logo-spin infinite 40s linear;
-      }
-      /* Estoy actualizando medias al movil, borrar lo que sobra */
-      .logo {
-        width: 8vw;
-        position: absolute;
-        top: 3.5vw;
-        left: 7.5vw;
-      }
-      .letras {
-        text-align: left;
-      }
-      .titulo {
-        font-family: 'Handlee', cursive;
-        font-size: 6vw;
-        padding-top: 0.2em;
-      }
-      .letras p {
-          font-size: 1.5vw;
-          padding-left: 0.8vw;
-      }
       .carousel {
           padding: 0;
           margin: 0;

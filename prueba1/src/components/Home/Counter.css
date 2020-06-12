@@ -1,9 +1,5 @@
-.prueba {
-    position: relative;
-    width: 33%;
-}
 .star {
-    height: 3.5vw;
+    height: 3.2vw;
     margin: 0;
     padding: 0;
     margin-top: -4vw;
@@ -20,7 +16,7 @@
 .divC {
     width: 1.7em;
     height: 1em;
-    font-size: 4vw;
+    font-size: 3.8vw;
     overflow: hidden;
     line-height: 1em;
     display: inline-block;

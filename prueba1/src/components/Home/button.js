@@ -10,7 +10,7 @@ export default class Button extends React.Component {
       items.item(0).children.item(0).classList.add("animate");
       items.item(1).children.item(0).classList.add("animate2");
       items.item(2).children.item(0).classList.add("animate3");
-    }, 1000);
+    }, 600);
 
     setTimeout(function(){
       items.item(0).children.item(0).classList.remove("animate");
@@ -21,7 +21,13 @@ export default class Button extends React.Component {
 
   render() {
     return (
-      <a href="#counter" className="btn btn-light botoncito d-none d-md-block" style={{backgroundColor: 'white', border: 'none'}} onClick={this.handleClick}>EXPLORA</a>
+      <div className="" style={{
+        display: 'flex',
+        alignItems: 'center'
+        }}>
+        <a href="#counter" className="btn btn-light botoncito d-none d-sm-block" style={{backgroundColor: 'white', border: 'none'}} onClick={this.handleClick}>EXPLORA</a>
+      </div>
+      
     );
   }
 }

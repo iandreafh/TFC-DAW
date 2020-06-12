@@ -9,23 +9,13 @@ import Button from '../components/Home/button';
 import CarouselPage from '../components/Home/Carousel';
 import Video from '../components/Home/Video';
 
-function HomePage() {
+function PanelPage() {
   return (
-    
-    <div className="HomePage">
-      <Navbar />
-      <Video />
-      <Button />
-      <Counter />
-      <CarouselPage />
-      <Footer />
 
-      {/* <Container>
-          <Row><Col><FormInicio /></Col></Row>
-      </Container>
-      <Inicio /> */}
-    </div>
+
+
+    <h2>Panel</h2>
   );
 }
 
-export default HomePage;
+export default PanelPage;
