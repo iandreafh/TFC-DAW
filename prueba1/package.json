@@ -8,10 +8,10 @@
     "@testing-library/user-event": "^7.2.1",
     "animate.css": "^4.1.0",
     "bootstrap": "^4.5.0",
+    "json-loader": "^0.5.7",
     "mdbreact": "^4.27.0",
-    "react": "^16.13.1",
+    "rc-time-picker": "^3.7.3",
     "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
     "react-fontawesome": "^1.7.1",
     "react-responsive-carousel": "^3.2.7",
     "react-router-dom": "^5.2.0",
@@ -39,5 +39,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-times": "^3.1.12"
   }
 }

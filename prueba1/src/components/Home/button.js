@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 export default class Button extends React.Component {
   // This syntax ensures `this` is bound within handleClick.
