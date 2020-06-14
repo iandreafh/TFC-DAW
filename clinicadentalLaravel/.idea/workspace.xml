@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8894bc99-efde-44d8-9ccd-33df67383814" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.idea/clinicadental.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.idea/commandlinetools/Composer_1_6_20_12_37_c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.idea/commandlinetools/Tool_based_on_Symfony_Console_1_6_20_13_08_art.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.idea/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Cita.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Empleado.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Controllers/PruebaController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Inventario.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Paciente.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Pago.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/PiezaDental.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Prueba.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/Tratamiento.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/migrations/2020_06_01_111156_create_pacientes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/migrations/2020_06_01_114741_create_citas_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/migrations/2020_06_01_114758_create_empleados_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/migrations/2020_06_01_114817_create_inventarios_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/migrations/2020_06_01_114825_create_pagos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/migrations/2020_06_01_114837_create_pieza_dentals_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/migrations/2020_06_01_114849_create_tratamientos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/migrations/2020_06_01_115130_create_citas_tratamientos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/migrations/2020_06_01_115154_create_productos_citas_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinicadental/webpack.mix.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1ciLuEKIQYtnlIFGJeOkeUtfidc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/xampp7.6/php/php.exe" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="c create-project laravel/laravel --prefer-dist" />
+      <command value="c create-project laravel/laravel 7.x --prefer-dist" />
+      <command value="c create-project laravel/laravel &quot;&quot; --prefer-dist" />
+      <command value="c create-project laravel/laravel &quot;&quot; 7.x --prefer-dist" />
+      <command value="art make:migration --table pacientes" />
+      <command value="art make:migration --table &quot;pacientes&quot;" />
+      <command value="art make:model Paciente -m" />
+      <command value="art migrate" />
+      <command value="art migrate:rollback" />
+      <command value="art make:model Cita -m" />
+      <command value="art make:model Empleado -m" />
+      <command value="art make:model Inventario -m" />
+      <command value="art make:model Pago -m" />
+      <command value="art make:model PiezaDental -m" />
+      <command value="art make:model Tratamiento -m" />
+      <command value="art make:migration --table &quot;citas_tratamientos&quot;" />
+      <command value="art make:model Citas_Tratamientos -m" />
+      <command value="art make:model CitasTratamientos -m" />
+      <command value="art make:model CitasTratamiento -m" />
+      <command value="art make:model ProductosCita -m" />
+      <command value="art migrate:fresh" />
+      <command value="art make:model Prueba --resources" />
+      <command value="art make:model Prueba --resource" />
+      <command value="art make:controller --resource PruebaController" />
+      <command value="art make:seeder EmpleadosTableSeeder" />
+      <command value="art make:seeder EmpleadosSeeder" />
+      <command value="art make:factory EmpleadoFactory --model=Empleado" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8894bc99-efde-44d8-9ccd-33df67383814" name="Default Changelist" comment="" />
+      <created>1591006687421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591006687421</updated>
+      <workItem from="1591006689196" duration="13025000" />
+      <workItem from="1591879381460" duration="3688000" />
+      <workItem from="1592126054190" duration="735000" />
+      <workItem from="1592126892893" duration="120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="407" y="241" key="ComposerCompositePathDialog" timestamp="1591007825964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="407" y="241" key="ComposerCompositePathDialog/0.0.1366.728@0.0.1366.728" timestamp="1591007825964" />
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1591009720659">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591009720659" />
+    <state x="538" y="251" key="FrameworkEditDialogDimensionKey" timestamp="1591007788979">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="538" y="251" key="FrameworkEditDialogDimensionKey/0.0.1366.728@0.0.1366.728" timestamp="1591007788979" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1592126813439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592126813439" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1592126813439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592126813439" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1592126813439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592126813439" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1592126813439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592126813439" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1592127017557">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592127017557" />
+    <state x="439" y="224" key="SymfonyComponentCompositeDataDialog" timestamp="1591009724468">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="439" y="224" key="SymfonyComponentCompositeDataDialog/0.0.1366.728@0.0.1366.728" timestamp="1591009724468" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1592126778288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1592126778288" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591036689130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591036689130" />
+  </component>
+</project>
