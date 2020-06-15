@@ -4,7 +4,8 @@ import './Panel.css';
 import './Home.css';
 import Sidebar from '../components/Admin/Sidebar.js';
 
-function PanelPage() {
+
+function PanelAdminPage() {
   return (
     <div>
 
@@ -24,4 +25,4 @@ function PanelPage() {
   );
 }
 
-export default PanelPage;
+export default PanelAdminPage;

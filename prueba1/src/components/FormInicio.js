@@ -1,6 +1,9 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import axios from 'axios';
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import Panel from '../pages/PanelPage';
+import PanelAdmin from '../pages/PanelAdminPage';
 
 export default class FormInicio extends React.Component {
   constructor(props) {
@@ -32,15 +35,21 @@ export default class FormInicio extends React.Component {
       contraseña: this.state.contraseña
     };
 
-    console.log(user);
 
-    axios.post('http://localhost/public/api/empleado/login',user)
-    .then(res => {console.log(res);
-      console.log(res.data)
-    if(res.data == "ok")
-    window.location = "/panel";
-    else
-    console.log("error intentalo de nuevo");
+    axios.post('http://localhost/public/api/login',user)
+    .then(res => {
+      sessionStorage.log = "rol: ninguno";
+      if(res.data == "incorrecto")
+        alert("Usuario incorrecto");
+      else if(res.data == "inactivo")
+        alert("Usuario inactivo");
+      else if(res.data == "directivo" || res.data == "auxiliar")
+      {
+        sessionStorage.log = "rol: " + res.data + ", email: " + user.email;
+        window.location = "/panel";
+      }
+
+    
   })
     .catch(err => console.log(err.response));
   }
@@ -67,7 +76,7 @@ export default class FormInicio extends React.Component {
                 <FormGroup className="mb-5 ml-md-4 mr-sm-0 mb-md-0">
                   <Label for="contraseña" className="mr-sm-3">Contraseña</Label>
                   <Input type="password" name="contraseña" id="examplePassword" placeholder="******" size="30"
-                  pattern="(?=.*\d)(?=.*[a-z]).{6,}" value={this.state.numberOfGuests} onChange={this.handleInputChange} required />
+                  pattern="[A-Za-z0-9_]{6}" value={this.state.numberOfGuests} onChange={this.handleInputChange} required />
                 </FormGroup>
               </Col>
               <Col xs="12" md="2">

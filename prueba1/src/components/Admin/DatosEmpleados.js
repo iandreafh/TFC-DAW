@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-class Datos extends Component {
+class DatosEmpleados extends Component {
 constructor(props) {
     super(props);
 
@@ -34,7 +34,7 @@ componentDidMount() {
      
     return (
       <div className="datos">
-        <table id="example" cellPadding="1" border="1" style={{margin: '1em 0.3em'}} class="table table-striped table-bordered">
+        <table id="example" cellPadding="1" border="1" style={{margin: '1em 0.3em'}} className="table table-striped table-bordered">
           <thead>
             <tr>
               <th>DNI</th>
@@ -48,7 +48,7 @@ componentDidMount() {
           </thead>
           <tbody>
             {this.state.dataTable.map(item => (
-              <tr>
+              <tr key={item.dni}>
                   <td>{item.dni}</td>
                   <td>{item.nombre}</td>
                   <td>{item.apellidos}</td>
@@ -61,12 +61,12 @@ componentDidMount() {
           </tbody>
         </table>
 
-        <ul class="pagination justify-content-center">
-          <li class="page-item"><a class="page-link" href="#" onClick={e => this.nextPage(this.state.paginaActual - 1)} >Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#" onClick={e => this.nextPage(1)} >1</a></li>
-          <li class="page-item"><a class="page-link" href="#" onClick={e => this.nextPage(2)} >2</a></li>
-          <li class="page-item"><a class="page-link" href="#" onClick={e => this.nextPage(3)} >3</a></li>
-          <li class="page-item"><a class="page-link" href="#" onClick={e => this.nextPage(this.state.paginaActual + 1)} >Next</a></li>
+        <ul className="pagination justify-content-center">
+          <li className="page-item"><a className="page-link" href="#" onClick={e => this.nextPage(this.state.paginaActual - 1)} >Previous</a></li>
+          <li className="page-item"><a className="page-link" href="#" onClick={e => this.nextPage(1)} >1</a></li>
+          <li className="page-item"><a className="page-link" href="#" onClick={e => this.nextPage(2)} >2</a></li>
+          <li className="page-item"><a className="page-link" href="#" onClick={e => this.nextPage(3)} >3</a></li>
+          <li className="page-item"><a className="page-link" href="#" onClick={e => this.nextPage(this.state.paginaActual + 1)} >Next</a></li>
         </ul>
 
 
@@ -75,4 +75,4 @@ componentDidMount() {
   }
 }
 
-export default Datos;
+export default DatosEmpleados;

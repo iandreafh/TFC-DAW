@@ -14,10 +14,6 @@ function HomePage() {
       <FormInicio />
       <Footer />
 
-      {/* <Container>
-          <Row><Col><FormInicio /></Col></Row>
-      </Container>
-      <Inicio /> */}
     </div>
   );
 }
