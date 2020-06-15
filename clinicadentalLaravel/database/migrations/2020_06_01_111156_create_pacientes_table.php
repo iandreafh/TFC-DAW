@@ -22,6 +22,7 @@ class CreatePacientesTable extends Migration
             $table->string("telefono");
             $table->string("email");
             $table->boolean("activo");
+            $table->timestamps();
         });
 
         Schema::table('pacientes', function (Blueprint $table) {

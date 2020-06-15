@@ -20,7 +20,8 @@ class CreateEmpleadosTable extends Migration
             $table->date("fechaNacimiento");
             $table->string("direccion");
             $table->string("telefono");
-            $table->string("email");
+            $table->string("email");;
+            $table->string("contraseña");
             $table->boolean("doctor");
             $table->boolean("directivo");
             $table->boolean("activo");

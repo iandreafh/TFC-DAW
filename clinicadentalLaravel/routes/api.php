@@ -1,8 +1,5 @@
 <?php
-
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,7 +10,8 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::post('login','EmpleadoController@login');
+Route::get('empleados','EmpleadoController@index');
+Route::get('pacientes/{tipo}','PacienteController@index');
+Route::get('pacientes/{dni}','PacienteController@show');
+Route::delete('pacientes/{dni}','PacienteController@destroy');
