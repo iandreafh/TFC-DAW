@@ -16,8 +16,8 @@ const Principal = (props) => {
               <img src={logo} className="logo" style={{marginLeft: '-5.5em'}} />
             </Col>
             <Col xs="10" className="letras">
-              <h1 className="titulo">Clínica Dental Vhita</h1>
-              <h4>Bienvenido al panel de administración de la Clínica Dental Vhita</h4>
+              <h1 className="titulo" style={{fontSize: '5vw'}}>Clínica Dental Vhita</h1>
+              <h4 style={{fontSize: '2vw', width: '40vw', textAlign: 'right',marginLeft: '13vw'}}>Bienvenido al panel de administración de la Clínica Dental Vhita</h4>
             </Col>
           </Row>
           

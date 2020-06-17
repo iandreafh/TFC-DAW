@@ -16,6 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('login','EmpleadoController@login');
 
+//Agenda
+Route::get('agenda','CitaController@index');
+Route::get('agenda/{dni}','CitaController@show');
+Route::put('actualizarCita','CitaController@update');
+
 //Pacientes
 Route::get('pacientes','PacienteController@index');
 Route::get('pacientes/{dni}','PacienteController@show');
@@ -29,6 +34,9 @@ Route::get('empleados/{dni}','EmpleadoController@show');
 Route::post('altaEmp','EmpleadoController@store');
 Route::delete('borrarEmp/{dni}','EmpleadoController@destroy');
 Route::put('actualizarEmp','EmpleadoController@update');
+
+//Pagos
+Route::get('pagos','CitaController@pagos');
 
 //Perfil
 Route::get('perfil/{email}','EmpleadoController@perfil');

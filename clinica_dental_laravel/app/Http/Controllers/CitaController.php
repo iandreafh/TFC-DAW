@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Cita;
 use App\CitasTratamiento;
+use Illuminate\Support\Facades\DB;
 
 class CitaController extends Controller
 {
@@ -15,8 +16,17 @@ class CitaController extends Controller
      */
     public function index()
     {
-        $idCitas = CitasTratamiento::all()->pluck('idCita')->toArray();
-        $citas = Cita::all();
+        $currentDate = date('Y-m-d');
+        $prueba = DB::table('citas')
+            ->join('citas_tratamientos', 'citas.id', '=', 'citas_tratamientos.idCita')
+            ->join('tratamientos', 'citas_tratamientos.idTratamiento', '=', 'tratamientos.id')
+            ->join('pacientes', 'pacientes.dni', '=', 'tratamientos.idPaciente')
+            ->join('empleados', 'empleados.dni', '=', 'tratamientos.idEmpleado')
+            ->where('citas.fecha', '=', $currentDate)->orderBy('citas.hora')
+            ->select('citas_tratamientos.*','citas.*','tratamientos.*','pacientes.*','empleados.nombre as nombreDoctor', 'empleados.apellidos as apellidosDoctor')
+        ->get();
+        return $prueba;
+
     }
 
     /**
@@ -48,7 +58,15 @@ class CitaController extends Controller
      */
     public function show($id)
     {
-        //
+        $cita = DB::table('citas')
+            ->join('citas_tratamientos', 'citas.id', '=', 'citas_tratamientos.idCita')
+            ->join('tratamientos', 'citas_tratamientos.idTratamiento', '=', 'tratamientos.id')
+            ->join('pacientes', 'pacientes.dni', '=', 'tratamientos.idPaciente')
+            ->join('empleados', 'empleados.dni', '=', 'tratamientos.idEmpleado')
+            ->where('citas.id', '=', $id)
+            ->select('citas_tratamientos.*','citas.*','tratamientos.*','pacientes.*','empleados.nombre as nombreDoctor', 'empleados.apellidos as apellidosDoctor')
+        ->get();
+        return $cita;
     }
 
     /**
@@ -69,9 +87,14 @@ class CitaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        //
+        Cita::where('id', $request->id)
+            ->update([
+                'fecha' => $request->fecha,
+                'hora' => $request->hora,
+                'asistencia' => $request->asistencia
+            ]);
     }
 
     /**
@@ -84,4 +107,12 @@ class CitaController extends Controller
     {
         //
     }
+
+    public function pagos()
+    {
+        $pagos = DB::table('pagos')->get();
+        return $pagos;
+
+    }
+
 }

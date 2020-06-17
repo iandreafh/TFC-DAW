@@ -31,7 +31,7 @@ class CitasSeeder extends Seeder
             ]);
         }
 
-        for($i=0;$i < 6;$i++)
+        for($i=0;$i < 8;$i++)
         {
             Cita::create([
                 'fecha' => $faker->dateTimeBetween($startDate = 'today', $endDate = 'today'),

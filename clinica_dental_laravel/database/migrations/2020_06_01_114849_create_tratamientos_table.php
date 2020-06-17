@@ -17,7 +17,7 @@ class CreateTratamientosTable extends Migration
             $table->id();
             $table->string("idPaciente");
             $table->string("idEmpleado");
-            $table->string("nombre");
+            $table->string("nombreTratamiento");
             $table->float("precio");
             $table->integer("sesiones");
             $table->timestamps();

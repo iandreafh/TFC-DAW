@@ -22,8 +22,8 @@ class CitasTratamientosSeeder extends Seeder
         $faker = \Faker\Factory::create();
 
         $citas = Cita::all()->pluck('id')->toArray();
-        $unicaPieza = Tratamiento::whereIn('nombre', ['Empaste','Prótesis'])->get()->pluck('id')->toArray();
-        $zonaPieza = Tratamiento::whereNotIn('nombre', ['Prótesis', 'Empaste'])->get();
+        $unicaPieza = Tratamiento::whereIn('nombreTratamiento', ['Empaste','Prótesis'])->get()->pluck('id')->toArray();
+        $zonaPieza = Tratamiento::whereNotIn('nombreTratamiento', ['Prótesis', 'Empaste'])->get();
         // 32 piezas dentales en total
         $piezas = PiezaDental::whereNotIn('id', [1,2,3])->get()->pluck('id')->toArray();
 

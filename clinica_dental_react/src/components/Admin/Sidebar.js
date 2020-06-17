@@ -5,6 +5,8 @@ import DatosEmpleados from './Emp/DatosEmpleados.js';
 import DatosPacientes from './Pac/DatosPacientes.js';
 import Principal from './Principal.js';
 import Perfil from './Perfil.js';
+import Agenda from './Agenda.js';
+import Pagos from './Pagos.js';
 import Date from './DatePicker.js';
 
 export default class Sidebar extends React.Component {
@@ -46,23 +48,25 @@ export default class Sidebar extends React.Component {
         if(sessionStorage.log.split(",")[0].split(" ")[1] == "directivo")
         {
             return (
-            <a href="#" className="list-group-item list-group-item-action bg-light">Pagos</a>);
+            <a href="/panel/pagos" className="list-group-item list-group-item-action bg-light">Pagos</a>);
         }
     }
 
     cargaDatos = () => {
         if(this.state.seccion == "empleados")
-        {
             return <DatosEmpleados />;
-        }
         else if(this.state.seccion == "inicio")
             return <Principal />;
         else if(this.state.seccion == "pacientes")
             return <DatosPacientes />;
         else if(this.state.seccion == "perfil")
             return <Perfil />;
+        else if(this.state.seccion == "agenda")
+            return <Agenda />;
+        else if(this.state.seccion == "pagos")
+            return <Pagos />;
         else
-            return <Date />;
+            return <Principal />;
     }
     
 

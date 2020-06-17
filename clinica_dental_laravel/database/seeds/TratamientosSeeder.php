@@ -36,7 +36,7 @@ class TratamientosSeeder extends Seeder
             Tratamiento::create([
                 'idPaciente' => $faker->randomElement($pacientes),
                 'idEmpleado' => $faker->randomElement($empleados),
-                'nombre' => $faker->randomElement($tiposComunes),
+                'nombreTratamiento' => $faker->randomElement($tiposComunes),
                 'precio' => $faker->numberBetween($min = 30, $max = 50),
                 'sesiones' => '1'
             ]);
@@ -47,7 +47,7 @@ class TratamientosSeeder extends Seeder
             Tratamiento::create([
                 'idPaciente' => $faker->randomElement($pacientes),
                 'idEmpleado' => $faker->randomElement($empleados),
-                'nombre' => $faker->randomElement($tiposPocoComunes),
+                'nombreTratamiento' => $faker->randomElement($tiposPocoComunes),
                 'precio' => $faker->numberBetween($min = 40, $max = 70),
                 'sesiones' => '1'
             ]);
@@ -58,7 +58,7 @@ class TratamientosSeeder extends Seeder
             Tratamiento::create([
                 'idPaciente' => $faker->randomElement($pacientes),
                 'idEmpleado' => $faker->randomElement($empleados),
-                'nombre' => $faker->randomElement($tiposSesiones),
+                'nombreTratamiento' => $faker->randomElement($tiposSesiones),
                 'precio' => $faker->numberBetween($min = 20, $max = 40), //por sesion
                 'sesiones' => $faker->numberBetween($min = 5, $max = 10)
             ]);
@@ -68,7 +68,7 @@ class TratamientosSeeder extends Seeder
             Tratamiento::create([
                 'idPaciente' => $faker->randomElement($pacientes),
                 'idEmpleado' => $faker->randomElement($empleados),
-                'nombre' => 'Ortodoncia',
+                'nombreTratamiento' => 'Ortodoncia',
                 'precio' => '60', //por sesion
                 'sesiones' => $faker->numberBetween($min = 10, $max = 24)
             ]);
