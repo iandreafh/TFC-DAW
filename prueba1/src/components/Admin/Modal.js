@@ -60,17 +60,24 @@ const ModalExample = (props) => {
         <div>
         <InputGroup>
             <InputGroupAddon addonType="prepend">
+            <InputGroupText>DNI</InputGroupText>
+            </InputGroupAddon>
+            <Input defaultValue={paciente.dni} />
+        </InputGroup>
+        <br />
+        <InputGroup>
+            <InputGroupAddon addonType="prepend">
             <InputGroupText>Nombre</InputGroupText>
             </InputGroupAddon>
             <Input defaultValue={paciente.nombre} />
-            
+        </InputGroup>
+        <br />
+        <InputGroup>
             <InputGroupAddon addonType="prepend">
             <InputGroupText>Apellidos</InputGroupText>
             </InputGroupAddon>
             <Input defaultValue={paciente.apellidos} />
-        </InputGroup>
-        <br />
-        <InputGroup>
+
             <InputGroupAddon addonType="prepend">
             <InputGroupText>Fecha de nacimiento</InputGroupText>
             </InputGroupAddon>
@@ -82,6 +89,13 @@ const ModalExample = (props) => {
             <InputGroupText>Dirección</InputGroupText>
             </InputGroupAddon>
             <Input defaultValue={paciente.direccion} />
+        </InputGroup>
+        <br />
+        <InputGroup>
+            <InputGroupAddon addonType="prepend">
+            <InputGroupText>Teléfono</InputGroupText>
+            </InputGroupAddon>
+            <Input defaultValue={paciente.telefono} />
         </InputGroup>
         <br />
         <InputGroup>
@@ -99,18 +113,7 @@ const ModalExample = (props) => {
             </InputGroupAddon>
             <Input placeholder="Activo" />
         </InputGroup>
-        <br />
-        <InputGroup>
-            <InputGroupAddon addonType="prepend">
-            <InputGroupText>$</InputGroupText>
-            <InputGroupText>$</InputGroupText>
-            </InputGroupAddon>
-            <Input placeholder="Dolla dolla billz yo!" />
-            <InputGroupAddon addonType="append">
-            <InputGroupText>$</InputGroupText>
-            <InputGroupText>$</InputGroupText>
-            </InputGroupAddon>
-        </InputGroup>
+
         </div>
 
         </ModalBody>

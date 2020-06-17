@@ -18,7 +18,6 @@ class CreateCitasTable extends Migration
             $table->date("fecha");
             $table->time("hora");
             $table->boolean("asistencia");
-            $table->date("fechaAlta");
             $table->timestamps();
         });
     }

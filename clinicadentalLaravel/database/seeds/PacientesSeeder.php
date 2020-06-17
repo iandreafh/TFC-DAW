@@ -12,9 +12,12 @@ class PacientesSeeder extends Seeder
     public function run()
     {
 
+        Paciente::whereNotNull('dni')->delete();
+        DB::statement("ALTER TABLE pacientes AUTO_INCREMENT = 1");
+
         $faker = \Faker\Factory::create();
 
-        // Create 26 product records
+        // Create 26 pacientes
         for ($i = 0; $i < 40; $i++) {
             Paciente::create([
                 'dni' => $faker->unique()->regexify('[1-9]{8}[A-Z]'),

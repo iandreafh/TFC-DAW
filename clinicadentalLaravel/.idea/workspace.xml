@@ -167,22 +167,44 @@
       <command value="art make:seeder PacientesSeeder" />
       <command value="art make:seeder PacientesTableSeeder" />
       <command value="art db:seed --class=PacientesTableSeeder" />
-      <command value="c dump-autoload" />
       <command value="art cache:clear" />
       <command value="art optimize" />
       <command value="art migrate:fresh" />
       <command value="art db:seed" />
-      <command value="art make:seeder PiezasDentalesSeeder" />
-      <command value="art db:seed --class=PiezasDentalesSeeder" />
       <command value="art preset react" />
       <command value="art make:controller --resource EmpleadoController" />
       <command value="art serve" />
       <command value="art db:seed --class=PiezasDentalsSeeder" />
-      <command value="art migrate:fresh --seed" />
       <command value="art make:controller --resource PacienteController" />
       <command value="art make:migration --table &quot;pacientes&quot;" />
-      <command value="art db:seed --class=PacientesSeeder" />
       <command value="art route:list" />
+      <command value="art make:seeder PiezasDentalesSeeder" />
+      <command value="art db:seed --class=PiezasDentalesSeeder" />
+      <command value="art make:seeder Prueba" />
+      <command value="art db:seed --class=Prueba" />
+      <command value="art make:seeder Pieza_DentalSeeder" />
+      <command value="art db:seed --class=Pieza_DentalsSeeder" />
+      <command value="art db:seed --class=PacientesSeeder" />
+      <command value="art make:seeder TratamientosSeeder" />
+      <command value="c du" />
+      <command value="art make:seeder PagosSeeder" />
+      <command value="art db:seed --class=TratamientosSeeder" />
+      <command value="art make:seeder CitasSeeder" />
+      <command value="art make:seeder CitasTratamientosSeeder" />
+      <command value="art make:controller --resource CitasTratamientoController" />
+      <command value="art make:model CitasTratamiento" />
+      <command value="art db:seed --class=PiezaDentalsSeeder" />
+      <command value="art make:seeder ProductosSeeder" />
+      <command value="art db:seed --class=CitasTratamientosSeeder" />
+      <command value="art make:model Producto" />
+      <command value="art make:model Inventario" />
+      <command value="art db:seed --class=CitasSeeder" />
+      <command value="art db:seed --class=PagosSeeder" />
+      <command value="art make:seeder ProductosCitasSeeder" />
+      <command value="art make:model ProductosCita" />
+      <command value="art db:seed --class=ProductosCitasSeeder" />
+      <command value="c dump-autoload" />
+      <command value="art migrate:fresh --seed" />
     </option>
   </component>
   <component name="RunManager">
@@ -205,7 +227,9 @@
       <workItem from="1591879381460" duration="3688000" />
       <workItem from="1592126854329" duration="14714000" />
       <workItem from="1592156325647" duration="13067000" />
-      <workItem from="1592230642047" duration="7849000" />
+      <workItem from="1592230642047" duration="8490000" />
+      <workItem from="1592292320380" duration="1365000" />
+      <workItem from="1592333525056" duration="23558000" />
     </task>
     <servers />
   </component>
@@ -213,6 +237,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="446" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592353977824">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="446" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1592353977824" />
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592158452702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -229,22 +257,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="538" y="251" key="FrameworkEditDialogDimensionKey/0.0.1366.728@0.0.1366.728" timestamp="1591007788979" />
-    <state width="1323" height="196" key="GridCell.Tab.0.bottom" timestamp="1592259316921">
+    <state width="894" height="177" key="GridCell.Tab.0.bottom" timestamp="1592359052251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592259316921" />
-    <state width="1323" height="196" key="GridCell.Tab.0.center" timestamp="1592259316921">
+    <state width="894" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592359052251" />
+    <state width="894" height="177" key="GridCell.Tab.0.center" timestamp="1592359052251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592259316921" />
-    <state width="1323" height="196" key="GridCell.Tab.0.left" timestamp="1592259316920">
+    <state width="894" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592359052251" />
+    <state width="894" height="177" key="GridCell.Tab.0.left" timestamp="1592359052251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592259316920" />
-    <state width="1323" height="196" key="GridCell.Tab.0.right" timestamp="1592259316921">
+    <state width="894" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592359052251" />
+    <state width="894" height="177" key="GridCell.Tab.0.right" timestamp="1592359052251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592259316921" />
+    <state width="894" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592359052251" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1592134292274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -253,10 +281,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="439" y="224" key="SymfonyComponentCompositeDataDialog/0.0.1366.728@0.0.1366.728" timestamp="1591009724468" />
-    <state x="334" y="96" width="672" height="599" key="run.anything.popup" timestamp="1592259316559">
+    <state x="334" y="96" width="672" height="599" key="run.anything.popup" timestamp="1592359051952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="334" y="96" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1592259316559" />
+    <state x="334" y="96" width="672" height="599" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1592359051952" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592140789872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

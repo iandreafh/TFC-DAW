@@ -12,10 +12,13 @@ class EmpleadosSeeder extends Seeder
     public function run()
     {
 
+        Empleado::whereNotNull('dni')->delete();
+        DB::statement("ALTER TABLE empleados AUTO_INCREMENT = 1");
+
         $faker = \Faker\Factory::create();
 
-        // Create 8 product records
-        for ($i = 0; $i < 8; $i++) {
+        // Create 8 empleados
+        for ($i = 0; $i < 9; $i++) {
             Empleado::create([
                 'dni' => $faker->unique()->regexify('11111111[A-Z]'),
                 'nombre' => $faker->firstName,
@@ -25,7 +28,7 @@ class EmpleadosSeeder extends Seeder
                 'telefono' => $faker->unique()->regexify('[6][0-9]{8}'), // 9 num aleatorios
                 'email' => $faker->unique()->safeEmail,
                 'contraseña' => $faker->unique()->regexify('[A-Za-z0-9_]{6}'), // contraseña aleatoria de 6 num y letras
-                'doctor' => $faker->boolean(60),
+                'doctor' => $faker->boolean(65),
                 'directivo' => $faker->boolean(40),
                 'activo' => $faker->boolean(80)
             ]);
